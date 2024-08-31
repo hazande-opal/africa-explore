@@ -1,0 +1,30 @@
+*{
+    font-family: monospace
+}
+
+.landing-text{
+    animation: typewritter 4s steps(17) 1s 1 normal both, blink 500ms steps(17) infinite normal;
+}
+
+@keyframes typewritter {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 17ch;
+    }
+}
+
+@keyframes blink {
+    0%, 100%{
+        border-color: transparent;
+    }
+
+    50%{
+        border-color: white;
+    }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
