@@ -3,7 +3,7 @@ export const sites = [{
     id: 'qsg450l',
     areaName : 'Maasai Mara',
     thumbnail : 'pexels-abdullatif-bukeni-1296376-16168264.jpg',
-    videoSource : 'Apple.mp4' 
+    videoSource : 'maasai-mara.mp4' 
 },{
     id: '1fn7s15',
     areaName : 'Morocco',
